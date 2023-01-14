@@ -1,0 +1,123 @@
+body{
+    color: white;
+}
+
+#title{
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    font-size: 35px;
+}
+
+/*Se crea la clase flex con el objetivo de definir el display y reutilizarlo*/
+.flex{
+    display: flex;
+    margin-top: 15px;
+}
+.flex label{
+    margin-right: 80px;
+    margin-left: 10px;
+}
+input{
+    padding-bottom: 5px;
+}
+.input{
+    width: 90%;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.form-control{
+    border-color: #212121;
+}
+.container .tabla{
+    margin: 50px 0 0 0;
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border-radius: 6px 6px 6px 6px;
+}
+
+#tabla-estilo{
+    margin-bottom: 40px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+  
+th, td {
+    padding-right: 8px;
+    text-align: left;
+    border-bottom: 100px solid #ddd;
+}
+
+.btn-style {
+    padding: 0.1em 0.25em;
+    width: 13em;
+    height: 4.2em;
+    background-color: #fff;
+    border: 0.08em solid #fff; 
+    border-radius: 0.3em;
+    font-size: 12px;
+  }
+  
+.btn-span {
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0.4em;
+    width: 8em;
+    height: 1.9em;
+    background-color: #fff;
+    border-radius: 0.2em;
+    font-size: 16px;
+    color: #212121; 
+    border: 0.08em solid #212121; 
+    box-shadow: 0 0.4em 0.1em 0.019em #212121; 
+  }
+  
+  .btn-span:hover {
+    transition: all 0.5s;
+    transform: translate(0, 0.4em);
+    box-shadow: 0 0 0 0 #212121;
+  }
+  
+  .btn-span:not(hover) {
+    transition: all 1s;
+  }
+
+  .btn-span-a {
+    margin-bottom: 3px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0.4em;
+    width: 10em;
+    height: 1.8em;
+    background-color: #fff;
+    border-radius: 0.2em;
+    font-size: 16px;
+    color: #212121; 
+    border: 0.08em solid #212121; 
+    box-shadow: 0 0.4em 0.1em 0.019em #212121; 
+  }
+  
+  .btn-span-a:hover {
+    transition: all 0.5s;
+    transform: translate(0, 0.4em);
+    box-shadow: 0 0 0 0 #212121;
+  }
+  
+  .btn-span-a:not(hover) {
+    transition: all 1s;
+  }
+  
+  
